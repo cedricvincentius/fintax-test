@@ -9,7 +9,7 @@ while (True):
         attempts[1] += 1
         print(attempts[1], "ssh log-in attempts were made at nodeXYZ")  # Output user input
     elif (username == "admin"):
-        print("ABC have", attempts[0], "attempt")
-        print("XYZ have", attempts[1], "attempt")
+        print("ABC have", attempts[0], "attempt") # Total Attempt
+        print("XYZ have", attempts[1], "attempt") # Total Attempt
     else:
-        print("no valid user")
+        print("no valid user") 
